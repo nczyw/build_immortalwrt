@@ -24,7 +24,6 @@ function git_sparse_clone() {
   cd .. && rm -rf $repodir
 }
 
-echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
 
 # 添加额外插件
 #git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
