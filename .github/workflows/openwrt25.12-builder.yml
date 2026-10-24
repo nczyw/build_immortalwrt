@@ -1,4 +1,4 @@
-name: openwrt-builder
+name: openwrt25.12-builder
 
 on:
   repository_dispatch:
@@ -15,7 +15,7 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: v25.12.2
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
+  CONFIG_FILE: 25_12.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: true
